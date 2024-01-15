@@ -1,0 +1,27 @@
+/* Normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+   html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  body {
+    margin: 0;
+  }
+  
+  /* Typography
+     ========================================================================== */
+  
+  body {
+    font-family: sans-serif;
+    font-size: 1rem;
+  }
+  
+  /* etc. - This is an abbreviated version for illustration purposes. The actual Normalize.css contains many more reset styles to normalize browser inconsistencies. */
+  

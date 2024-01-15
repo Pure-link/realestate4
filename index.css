@@ -1,0 +1,466 @@
+html{
+    zoom: 1.0;
+}
+body{
+    font-size: 32px;
+    zoom: 45%;
+    font-family: rob;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: mon;
+    src: url(font/montserrat.ttf);
+}
+@font-face {
+    font-family: rob;
+    src: url(font/roboto.ttf);
+}
+h1,h2,h3{
+    font-family: mon;
+    line-height: 2.5em;
+}
+p{
+    font-family: rob;
+    line-height: 50px;
+
+}
+
+  
+header{
+    min-height: 60vh;
+    background-image: url("images/livingRoom.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2%;
+    padding-left:  10%;
+    padding-bottom: 4%;
+    color: white;
+}
+.logo img{
+    height: 5em;
+}
+
+.companyIdentity{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 100px;
+}
+.properties{
+    height: 3.12em;
+    width: 14.0625em;
+    font-size: 1em;
+    margin-top: 100px;
+    background-color:  #3e88d8;
+    border: none;
+    color: white;
+}
+.properties:hover{
+    background-color:#1e19ee;
+}
+.intro h1{
+    /* color: #730504; */
+    font-size: 3em;
+}
+.intro p{
+    /* color: white; */
+    font-size: 1.5em;
+    max-width: 1000px;
+}
+h1{
+    font-size: 2.5em;
+}
+h2{
+    font-size: 1.7em;
+}
+h3{
+    font-size: 1.5em;
+}
+p{
+    font-size: 1em;
+}
+/* color{
+    black,
+    white,
+    #dc3838,
+    #730504
+    #1e19ee,
+    #3e88d8
+} */
+/* about */
+.about{
+    display: grid;
+    gap: 2em;
+    place-content: center;
+    place-items: center;
+    padding: 3em;
+    opacity: 1;
+}
+.aboutContanier{
+    display: flex;
+    width: 95%;
+}
+.aboutimage{
+    width: 60%;
+}
+.aboutimage img{
+    width: 85%;
+    aspect-ratio: 3 / 2;
+    min-width: 400px;
+}
+.aboutText{
+    width: 35%;
+}
+
+
+/* service */
+
+.service{
+    min-height: 60vh;
+    background-image: url("images/serviceBg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:2em 0;
+    min-height: 1000px;
+}
+.servicetext{
+    display: grid;
+    place-items: center;
+    color: white;
+}
+.servicetext1{
+    display: grid;
+    place-items: center;
+    color: white;
+}
+.serviceContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    padding: 0 10em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.serviceContainer1{
+    width: 25%;
+    min-width: 400px;
+    margin-top: 2em;
+    background-color: white;
+    padding: 1em;
+}
+.serviceContainer1 img{
+    width: 100%;
+    aspect-ratio: 3 / 2;
+}
+
+/* influence */
+.influence{
+    display: flex;
+    padding: 0 10em;
+    padding-top: 3em;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.influencePicCon{
+    padding: 2em;
+    width: 1000px;
+    display: grid;
+    place-items: center;
+}
+.influencePic{
+    width: 5em;
+    height: 19.33em;
+    overflow: hidden;
+    transition: 1s;
+}
+.influencePic img{
+    width: 29em;
+    height: 19.33em;
+    min-width: 400px;
+    min-height: 266px;
+}
+.influencePic:hover{
+    width: 29em;
+}
+.influenceText{
+    width: 50%;
+    min-width: 300px;
+    display: grid;
+    gap: 0;
+    place-items: center;
+}
+.textcon{
+    display: grid;
+    place-items: center;
+}
+
+/* contact */
+.contact{
+    padding: 2em 4em;
+    display: grid;
+    gap: 2em;
+    place-items: center;
+    background-color: #11009e;
+    min-height: 2500px;
+}
+.contactImages{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.contactImageCon{
+    background-color: white;
+    min-width: 600px;
+    aspect-ratio: 3 / 2;
+    padding: 0.5em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+#contactText{
+    color: white;
+}
+.contactInfo{
+    width: 95%;
+    height: 500px;
+    place-items: start;
+    color: white;
+}
+.contactInfoCon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.lower{
+    display: grid;
+    place-items: center;
+    height: 75%;
+}
+.contactImageConCon{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    height: 20%;
+}
+svg{
+    height: 3em;
+    width: 3em;
+    fill: #11009e;
+}
+.form1{
+    width:40%;
+    padding-left: 4em;
+    margin-left: 2em;
+}
+.contactInfo{
+    width: 45%;
+    display: grid;
+    place-items: center;
+}
+/* form */
+.form1 {
+    font-family: Arial, sans-serif;
+    margin-left: 4em;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1500px;
+    background-color: #f4f4f4;
+    padding: 2em;
+    min-width: 700px;
+  }
+  
+  .containerf {
+    width: 95%;
+    place-content: center;
+    padding: 2em;
+    
+    height: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .subcontainer{
+    width: 90%;
+  }
+
+  form{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding-top: 20px;
+    height: 10%;
+  }
+  .form-group:nth-child(2){
+    height: 10%;
+    border-bottom: solid 3px gray;
+  }
+  .form-group:nth-child(3){
+    height: 15%;
+    border-bottom: solid 3px gray;
+  }
+  .form-group:nth-child(4){
+    height: 40%;
+  }
+  .form-group:nth-child(5){
+    height: 10%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 85%;
+    font-size: 1.5em;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    /* outline: white; */
+    background-color: transparent;
+    height: 100%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 75px;
+    font-size: 1em;
+    width: 400px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #successMessage {
+    text-align: center;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+  }
+  
+
+@media only screen and (max-width: 1500px){
+    body{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    body{
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 900px){
+    body{
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 750px){
+    body{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 600px){
+    body{
+        font-size: 15px;
+    }
+    .influence{
+        display: grid;
+        padding: 0 10em;
+        padding-top: 3em;
+        place-items: center;
+    }
+}
+@media only screen and (max-width: 484px){
+    .contactImageCon{
+        background-color: white;
+        min-width: 450px;
+        aspect-ratio: 3 / 2;
+        padding: 0.5em;
+    }
+    .form1 {
+        font-family: Arial, sans-serif;
+        margin-left: 4em;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1200px;
+        background-color: #f4f4f4;
+        padding: 0.75em;
+        min-width: 500px;
+      }
+
+}
+
+@media only screen and (max-width: 420px){
+    .influencePicCon{
+        padding: 2em;
+        width: 700px;
+        display: grid;
+        place-items: center;
+    }
+}
+@media only screen and (max-width: 327px){
+    .influencePicCon{
+        padding: 2em;
+        width: 600px;
+        display: grid;
+        place-items: center;
+    }
+}
+@media only screen and (max-width: 278px){
+    .influencePicCon{
+        padding: 2em;
+        width: 500px;
+        display: grid;
+        place-items: center;
+    }
+}
+
+
+
+@media only screen and (max-width: 380px){
+    .aboutContanier{
+        flex-direction: column;
+    }
+    .aboutimage{
+        width: 100%;
+        padding-bottom: 2em;
+    }
+    .aboutimage img{
+        width: 100%;
+    }
+    .aboutText{
+        width: 100%;
+    }
+
+}
